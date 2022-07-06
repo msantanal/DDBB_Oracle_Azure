@@ -1,0 +1,1 @@
+# bd.curado.oracle

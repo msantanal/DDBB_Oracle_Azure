@@ -7,6 +7,7 @@ resource "oraclepaas_database_service_instance" "bdoracle" {
   vm_public_key     = var.vm_public_key
   
   database_configuration {
+      admin_user         = var.admin_user
       admin_password     = var.admin_password
       sid                = var.sid
       backup_destination = "NONE"

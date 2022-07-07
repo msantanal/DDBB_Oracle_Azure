@@ -10,9 +10,9 @@ variable "shape" {
 variable "subscription_type" {
   type        = string
 }
-variable "version" {
-  type        = string
-}
+# variable "version" {
+#  type        = string
+# }
 variable "vm_public_key" {
   type        = string
 }

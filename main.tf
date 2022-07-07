@@ -3,7 +3,7 @@ resource "oraclepaas_database_service_instance" "bdoracle" {
   edition           = var.edition
   shape             = var.shape
   subscription_type = var.subscription_type
-  version           = var.version
+  version           = "12.2.0.1"
   vm_public_key     = var.vm_public_key
   
   database_configuration {
